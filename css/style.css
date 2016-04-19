@@ -50,6 +50,9 @@ h1 {
   font-size: 1em;
   font-weight: bold;
   padding-top: 5px;
+  text-align: left;
+  padding-left: 30px;
+  float: left;
   font-style: italic;
 }
 
@@ -57,6 +60,7 @@ header nav a {
   color: #b6a7b6;
   padding-right: 20px;
   margin-right: 10px;
+  padding-top: 40px;
   text-decoration: none;
   text-align: right;
   float: right;
@@ -79,20 +83,10 @@ a:hover {
   justify-content: space-around;
 }
 
-.image1 {
-  width: 200px;
-  height: 241px;
-  border-width: 1px;
-  border-color: #d2caca;
-  border-style: solid;
-}
-
 .logo {
-  width: 50px;
-  height: 60px;
-  border-width: 1px;
-  border-color: #d2caca;
-  border-style: solid;
+  width: 10%;
+  height: 100%;
+  padding-left: 20px;
 }
 
 
@@ -129,8 +123,9 @@ figure {
 figcaption {
   display: block;
   align: bottom;
-  margin-top: 10px;
+  margin-top: 15px;
   color: #b6a7b6;
+  margin-bottom: 10px;
 }
 
 p {
@@ -171,36 +166,61 @@ button:hover {
 .blackbottom {
       background-color: #ece7e7;
       color: #ece7e7;
-      margin-top: 100px;
+      margin-top: 10px;
       font-family: 'Open Sans', sans-serif;
       font-weight: 800;
-      height: 120px;
+      height: 70px;
       text-align: left;
       width: 100%;
+      margin-bottom: 0px;
+      clear: both;
 }
 
 footer {
       padding-top: 5px;
       padding-left: 5px;
       color: white;
-      height: 80px;
+      height: 0px;
       clear: both;
       float: left;
       width: 100%;
 }
 
 #footer {
-  top-margin: 900px;
+  margin-top: 100px;
   padding-right: 20px;
   margin-right: 10px;
   text-decoration: none;
   }
 
+  .bottom {
+  text-align: right;
+  margin: 30px;
+  float: right;
+  }
+
 .fa-ul {
   color: #b6a7b6;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 100px;
   padding-left: 100px;
 }
 
 
+.button a {
+  text-decoration: none;
+  text-decoration-color: #8b8585;
+}
+
+a {
+color: #b2a9a9;
+}
+
+a:hover, button:hover {
+color: white;
+}
+
+li{ 
+  padding-top: 5px;
+
+ }
